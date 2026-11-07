@@ -30,6 +30,8 @@ Film a Line controls: **Z / X / C** (or ← ↑ →) pop an easy / medium / hard
 
 Other keys: **M** toggles mute and **Esc** closes dialogs. Everything can be reached with Tab.
 
+**Play it here:** https://2girls1bucket.github.io/GripEmpire/ — updates automatically on every push to `main`.
+
 ## Sharing with friends (static hosting)
 
 `npm run build` produces a fully static `dist/` folder with relative paths, so it works from any URL or sub-folder. Some free options:
@@ -41,7 +43,6 @@ Other keys: **M** toggles mute and **Esc** closes dialogs. Everything can be rea
 
 Each friend's progress is saved in their own browser. **Settings → Export save** creates a backup code or file, and **Import** restores it in another browser.
 
-Nothing has been published anywhere; publishing is up to you.
 
 ## Changing the title
 

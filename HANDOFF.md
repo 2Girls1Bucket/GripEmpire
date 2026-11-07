@@ -47,7 +47,7 @@ scripts/             make-save.ts, browser-check.ts
 - Sim times are optimistic. A human first Legacy is probably 40–60 minutes; this was not measured with real players.
 - Headless Edge would not launch here, so browser checks use Chrome (`BROWSER_CHANNEL=msedge` to try Edge).
 - `window.__grip` (engine) and `window.__line` (minigame state) are exposed for the automated browser checks. They are harmless in a single-player game, but would let a curious player edit their own save from the console.
-- Git was initialized but nothing is committed.
+- Hosted at https://2girls1bucket.github.io/GripEmpire/ (repo `2Girls1Bucket/GripEmpire`, public). Every push to `main` runs tests, builds and redeploys via `.github/workflows/deploy.yml`. Commits in this repo use the GitHub noreply email (set in the repo's local git config only).
 
 ## Ideas if continuing
 - Idle-friendly tree nodes or late-system cost tuning for pure-idle players.
